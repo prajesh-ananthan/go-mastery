@@ -7,6 +7,7 @@ import "fmt"
 type deck []string
 
 // Receiver
+// A function which receives a type deck
 func (d deck) print() {
 	for i, card := range d {
 		fmt.Println(i, card)
